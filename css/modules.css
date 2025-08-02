@@ -1,0 +1,26 @@
+/* == bootstrap == */
+@import url("modules/bootstrap.min.css");
+
+/* == owl.carousel == */
+@import url("modules/owl.carousel.min.css");
+@import url("modules/owl.theme.default.min.css");
+
+/* == animate css == */
+@import url("modules/animate.min.css");
+
+/* == themify & flaticon icons ==*/
+/*@import url("modules/themify-icons.css");*/
+@import url("modules/flaticon.css");
+
+/* == magnific-popup gallery  == */
+@import url("modules/magnific-popup.css");
+
+/* == YouTubePopUp == */
+@import url("modules/YouTubePopUp.css");
+
+/* == for booking css == */
+@import url("modules/select2.css");
+@import url("modules/datepicker.css");
+@import url("modules/whatsapp.css");
+@import url("modules/menu.css");
+

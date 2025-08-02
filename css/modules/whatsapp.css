@@ -1,0 +1,368 @@
+.icon-whats {
+	 position: absolute;
+	 bottom: 0;
+	 right: 0;
+	 z-index: 9;
+	 width: 90px;
+	 height: 90px;
+	 display: inline-block;
+	 left: 0;
+	 margin: 0 auto;
+	 cursor: pointer;
+}
+ .mypage-alo-ph-circle, .mypage-alo-ph-circle-fill {
+	 -webkit-border-radius: 100%;
+	 -moz-border-radius: 100%;
+}
+ .animated.infinite {
+	 -webkit-animation-iteration-count: infinite;
+	 animation-iteration-count: infinite;
+}
+ .mypage-alo-ph-circle {
+	 width: 90px;
+	 height: 90px;
+	 position: absolute;
+	 background-color: transparent;
+	 border: 2px solid rgba(30, 30, 30, 0.4);
+	 opacity: 0.1;
+	 opacity: 0.5;
+}
+ .zoomIn {
+	 -webkit-animation-name: zoomIn;
+	 animation-name: zoomIn;
+}
+ .animated {
+	 -webkit-animation-duration: 1s;
+	 animation-duration: 1s;
+	 -webkit-animation-fill-mode: both;
+	 animation-fill-mode: both;
+}
+ .mypage-alo-ph-circle-fill {
+	 width: 60px;
+	 height: 60px;
+	 top: 28px;
+	 left: 28px;
+	 position: absolute;
+	 -ms-transition: all 0.2s ease-in-out;
+	 border: 2px solid transparent;
+	 -webkit-transition: all 0.5s;
+	 -moz-transition: all 0.5s;
+	 -o-transition: all 0.5s;
+	 transition: all 0.5s;
+	 opacity: 0.4 !important;
+}
+ .mypage-alo-ph-circle, .mypage-alo-phone:hover .mypage-alo-ph-circle {
+	 border-color: #43b91e;
+}
+ .mypage-alo-ph-img-circle {
+	 top: 17px;
+	 left: 17px;
+	 position: absolute;
+	 background-image: url(../../src/images/button-whatsapp.png);
+	 width: 58px;
+	 height: 58px;
+	 opacity: 1;
+	 background-repeat: no-repeat;
+	 background-position: 14px 12px;
+	 background-color: #4ec95e;
+	 -webkit-transition: all 0.2s ease-in-out;
+	 -moz-transition: all 0.2s ease-in-out;
+	 -ms-transition: all 0.2s ease-in-out;
+	 -o-transition: all 0.2s ease-in-out;
+	 transition: all 0.2s ease-in-out;
+	 border-radius: 100%;
+}
+ .tada {
+	 -webkit-animation-name: tada;
+	 animation-name: tada;
+}
+ @-webkit-keyframes tada {
+	 from, to {
+		 -webkit-transform: scale3d(1, 1, 1);
+		 transform: scale3d(1, 1, 1);
+	}
+	 10%, 20% {
+		 -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+		 transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+	}
+	 30%, 50%, 70%, 90% {
+		 -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		 transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+	 40%, 60%, 80% {
+		 -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		 transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+}
+ @keyframes tada {
+	 from, to {
+		 -webkit-transform: scale3d(1, 1, 1);
+		 transform: scale3d(1, 1, 1);
+	}
+	 10%, 20% {
+		 -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+		 transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+	}
+	 30%, 50%, 70%, 90% {
+		 -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		 transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+	 40%, 60%, 80% {
+		 -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		 transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+}
+ @keyframes pulse {
+	 from, to {
+		 -webkit-transform: scale3d(1, 1, 1);
+		 transform: scale3d(1, 1, 1);
+	}
+	 50% {
+		 -webkit-transform: scale3d(1.05, 1.05, 1.05);
+		 transform: scale3d(1.05, 1.05, 1.05);
+	}
+}
+ @-webkit-keyframes zoomIn {
+	 from {
+		 opacity: 0;
+		 -webkit-transform: scale3d(0.3, 0.3, 0.3);
+		 transform: scale3d(0.3, 0.3, 0.3);
+	}
+	 50% {
+		 opacity: 1;
+	}
+}
+ @keyframes zoomIn {
+	 from {
+		 opacity: 0;
+		 -webkit-transform: scale3d(0.3, 0.3, 0.3);
+		 transform: scale3d(0.3, 0.3, 0.3);
+	}
+	 50% {
+		 opacity: 1;
+	}
+}
+ .button-whatsapp-flutuante {
+	 position: fixed;
+	 bottom: 75px;
+	 right: 25px;
+	 width: 105px;
+	 height: 115px;
+	 z-index: 9999;
+}
+ .button-whatsapp-flutuante span {
+	background-color: #777;
+	color: #fff;
+	padding: 7px;
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+	top: -10px;
+	display: block;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	position: relative;
+	margin: 0 auto;
+	line-height: 15px;
+}
+ .button-whatsapp-flutuante span:after {
+	 content: "";
+	 position: absolute;
+	 top: 100%;
+	 left: 50%;
+	 margin-left: -5px;
+	 border-width: 5px;
+	 border-style: solid;
+	 border-color: #777 transparent transparent transparent;
+}
+ .whatsapp-aej {
+	 position: fixed;
+	 bottom: 20px;
+	 width: 400px;
+	 right: 20px;
+	 z-index: 999999999;
+	 box-shadow: 0 0 4px rgba(51, 51, 51, 0.4);
+}
+ .whatsapp-aej .header-whatsapp {
+	 background-color: #128c7e;
+	 display: inline-block;
+	 padding: 20px;
+	 width: 100%;
+}
+ .whatsapp-aej .header-whatsapp .name-whatsapp {
+	 display: inline-block;
+	 vertical-align: middle;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 margin-left: 10px;
+	 color: #fff;
+}
+ .whatsapp-aej .header-whatsapp .image {
+	 width: 60px;
+	 display: inline-block;
+	 vertical-align: middle;
+}
+ .whatsapp-aej .header-whatsapp .image img {
+	 max-width: 100%;
+	 border-radius: 100%;
+}
+ .whatsapp-aej .header-whatsapp .close-whatsapp {
+	 background-color: #073832;
+	 color: #fff;
+	 display: inline-block;
+	 width: 34px;
+	 height: 34px;
+	 line-height: 31px;
+	 text-align: center;
+	 cursor: pointer;
+	 font-size: 22px;
+	 font-weight: normal;
+	 position: absolute;
+	 right: 0;
+	 top: 0;
+}
+ .whatsapp-aej .header-whatsapp .close-whatsapp:hover {
+	 background-color: #000;
+}
+ .whatsapp-aej .load {
+	 background-color: #fff;
+	 display: inline-block;
+	 margin: 30px;
+	 box-shadow: 0 0 4px rgba(51, 51, 51, 0.4);
+	 border-radius: 10px;
+	 background-color: #fff;
+	 display: inline-block;
+	 margin: 30px;
+	 box-shadow: 0 0 4px rgba(51, 51, 51, 0.4);
+	 border-radius: 10px;
+}
+ .container-whatsapp {
+	 background: #e6ddd4 url('../../src/images/whatsapp-bg.png') repeat;
+	 display: inline-block;
+	 vertical-align: top;
+	 width: 100%;
+}
+ .container-whatsapp .message-whatsapp {
+	 background-color: #fff;
+	 margin: 30px;
+	 box-shadow: 0 0 4px rgba(51, 51, 51, 0.4);
+	 border-radius: 10px;
+	 padding: 15px;
+}
+ .container-whatsapp .message-whatsapp p {
+	 color: #333;
+}
+ .text-whatsapp {
+	 background-color: #d8d8d8;
+	 width: 100%;
+	 padding: 20px;
+	 display: flex;
+}
+ .text-whatsapp textarea {
+	 width: 81%;
+	 resize: none;
+	 vertical-align: middle;
+	 height: 55px;
+	 color: #333;
+	 margin-bottom: 0;
+	 background-color: #fff;
+    padding: 10px;
+}
+ .text-whatsapp textarea:focus {
+border-color: transparent;
+}
+ .text-whatsapp a.button-send {
+	 width: 48px;
+	 height: 48px;
+	 display: inline-block;
+	 vertical-align: middle;
+	 background-image: url('../../src/images/send.png');
+	 background-position: center center;
+	 background-repeat: no-repeat;
+	 background-color: #25d366;
+	 text-indent: -9999px;
+	 border-radius: 100%;
+	 background-size: 25px;
+	 margin-left: 5%;
+}
+ .text-whatsapp a.button-send.disabled {
+	 background-color: #797979;
+	 pointer-events: none;
+}
+ .lds-ellipsis {
+	 display: inline-block;
+	 position: relative;
+	 width: 75px;
+	 height: 8px;
+	 transform: scale(0.5);
+}
+ .lds-ellipsis div {
+	 position: absolute;
+	 top: 0px;
+	 width: 13px;
+	 height: 13px;
+	 border-radius: 50%;
+	 background: rgba(51, 51, 51, 0.65);
+	 animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+ .lds-ellipsis div:nth-child(1) {
+	 left: 8px;
+	 animation: lds-ellipsis1 0.6s infinite;
+}
+ .lds-ellipsis div:nth-child(2) {
+	 left: 8px;
+	 animation: lds-ellipsis2 0.6s infinite;
+}
+ .lds-ellipsis div:nth-child(3) {
+	 left: 32px;
+	 animation: lds-ellipsis2 0.6s infinite;
+}
+ .lds-ellipsis div:nth-child(4) {
+	 left: 56px;
+	 animation: lds-ellipsis3 0.6s infinite;
+}
+ @keyframes lds-ellipsis1 {
+	 0% {
+		 transform: scale(0);
+	}
+	 100% {
+		 transform: scale(1);
+	}
+}
+ @keyframes lds-ellipsis3 {
+	 0% {
+		 transform: scale(1);
+	}
+	 100% {
+		 transform: scale(0);
+	}
+}
+ @keyframes lds-ellipsis2 {
+	 0% {
+		 transform: translate(0, 0);
+	}
+	 100% {
+		 transform: translate(24px, 0);
+	}
+}
+ @media screen and (max-width: 800px) {
+
+ 	.button-whatsapp-flutuante {
+	    bottom: 0;
+	}
+	
+	.text-whatsapp textarea {
+		 width: 75%;
+	}
+	
+	.whatsapp-aej {
+		 width: 100%;
+		 right: 0;
+	}
+
+	body .mfp-title {
+
+	    font-size: 12px;
+	}
+}
+ 
