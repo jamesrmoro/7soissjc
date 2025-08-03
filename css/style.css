@@ -3185,6 +3185,12 @@ hr.border-2 {
         padding-bottom: 70px;
     }
 
+    .section-title span {
+
+        font-size: 21px;
+        line-height: 25px;
+    }
+
     h2 {
 
         font-size: 21px;
