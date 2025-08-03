@@ -164,6 +164,12 @@ if ($relacionados): ?>
 	    padding-bottom: 30px;
 	}
 
+  .faq-question {
+
+    font-size: 14px;
+
+  }
+
 }
 </style>
 
