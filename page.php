@@ -6,7 +6,7 @@
 get_header();?>
 	<main>
 		<article>
-			<section class="container-page">
+			<section class="container">
 				<div class="center">
 					<div class="format-post">
 						<?php if (have_posts()): ?>
