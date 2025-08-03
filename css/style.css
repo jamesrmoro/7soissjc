@@ -5000,6 +5000,15 @@ button.mfp-arrow {
 	background-attachment: fixed;
 	color: #fff;
 }
+
+@media (max-width: 800px){
+
+    p {
+
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 767px){
 	.comming{
 		min-height: 120vh;
