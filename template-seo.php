@@ -20,9 +20,8 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="<?php echo $color; ?>">
 	<link rel="mask-icon" href="<?php bloginfo('template_url') ?>/favicon/images/safari-pinned-tab.svg" color="<?php echo $color; ?>">
 	<?php include (TEMPLATEPATH . '/favicon/favicon.php'); ?>
-	
-	<link rel="preload" href="https://9imob.com.br/wp-content/uploads/2023/01/terrazo-di-dante-em-sao-jose-dos-campos.webp" as="image" media="(max-width: 800px)">
-	<?php 
+
+	<?php
 	$css_critical = get_sub_field('css_critical');
 	if(wp_is_mobile()){ ?>
 		<link rel="preload" href="<?php echo $css_critical['mobile']; ?>" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet';"/>
@@ -41,7 +40,7 @@
 					<span>Cidade Sete Sóis</span>
 				</div>
 			</header>
-			<?php 
+			<?php
 			$id_post = get_the_ID();
 			if( have_rows('elements', $id_post) ):
 				while ( have_rows('elements', $id_post) ) : the_row();
