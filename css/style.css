@@ -4834,6 +4834,17 @@ button.mfp-arrow {
     padding: 20px;
   }
 
+  .booking-box .head-box h6 {
+
+    font-size: 12px;
+  }
+
+  .booking-box .head-box h4 {
+
+    font-size: 21px;
+    padding-bottom: 0;
+  }
+
   .testimonials .title {
 
     font-size: 13px;
