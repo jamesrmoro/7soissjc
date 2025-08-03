@@ -19,18 +19,19 @@ function faq_register_init() {
 
     $args = array(
         'labels' => $labels,
-        'public' => true,
-        'publicly_queryable' => true,
-        'show_ui' => true,
+        'public' => false, // 🔴 define como não público
+        'publicly_queryable' => false, // 🔴 impede acesso direto
+        'show_ui' => true, // 🔵 ainda visível no admin
         'query_var' => true,
-        'rewrite' => array('slug' => 'faqs'),
-        'capability_type' => 'post',
-        'has_archive' => true,
+        'rewrite' => false, // 🔴 desabilita URLs amigáveis
+        'exclude_from_search' => true, // 🔴 não aparece em buscas
+        'has_archive' => false,
         'menu_icon' => 'dashicons-editor-help',
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => array('title', 'editor', 'author', 'thumbnail', 'comments')
     );
+
 
     register_post_type('faq', $args);
 
