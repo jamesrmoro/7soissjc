@@ -566,11 +566,11 @@ body .wpcf7 form .wpcf7-response-output {
     vertical-align: middle;
   }
   .cookie-notice .notice-text a {
-    color: #007bff;
+    color: #333;
     text-decoration: underline;
   }
   .cookie-notice .notice-text a:hover {
-    color: blue;
+    color: #000;
   }
   .cookie-notice .notice-text span {
     color: #000;
